@@ -15,12 +15,12 @@ A Node React Boilerplate built with Node 7, Express and MongoDB with server side
 
 
 #### Core components
-Express JS<br />
-Reddis (for session persistence)<br />
-Mongo DB (for this PoC only; no doubt the choice of DB will change)<br />
-React (for server-side and front end templating)<br />
-Jasmine w. Chai (for tests)<br />
-Istanbul (for code coverage)<br />
+- Express JS
+- Reddis (for session persistence)
+- Mongo DB (for this PoC only; no doubt the choice of DB will change)
+- React (for server-side and front end templating)
+- Jasmine w. Chai (for tests)
+- Istanbul (for code coverage)
 
 #### Typical dotEnv file
 PORT=3000 <br />
