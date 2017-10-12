@@ -13,17 +13,26 @@ A Node React Boilerplate built with Node 7, Express and MongoDB with server side
 #### Checking code coverage
 3. To check coverage statistics manually, run `npm cover`. Coverage reports are generated in `./build/coverage/`.
 
+
+#### Core components
+Express JS<br />
+Reddis (for session persistence)<br />
+Mongo DB (for this PoC only; no doubt the choice of DB will change)<br />
+React (for server-side and front end templating)<br />
+Jasmine w. Chai (for tests)<br />
+Istanbul (for code coverage)<br />
+
 #### Typical dotEnv file
-- PORT=3000
-- SITE_NAME=MyApp
-- ENCRYPTION_KEY=mtZxVgm4u5pv3M3OoHiWAGDXrzQnE4pR
-- COOKIE_SECRET=bGF1cmVuLXdlZHMtYWxleDpjb29raWU
-- SESSION_SECRET=YWxleC13ZWRzLWxhdXJlbjpzZXNzaW9u
-- SESSION_COOKIE_MAX_AGE=3600000
-- MONGO_HOST=localhost
-- MONGO_PORT=27017
-- MONGO_USER=dev_user
-- MONGO_PASS=devUser01
-- MONGO_DATABASE_NAME=dbname
-- REDIS_HOST=localhost
-- REDIS_PORT=6379
+PORT=3000 <br />
+SITE_NAME=MyApp <br />
+ENCRYPTION_KEY=mtZxVgm4u5pv3M3OoHiWAGDXrzQnE4pR <br />
+COOKIE_SECRET=bGF1cmVuLXdlZHMtYWxleDpjb29raWU <br />
+SESSION_SECRET=YWxleC13ZWRzLWxhdXJlbjpzZXNzaW9u <br />
+SESSION_COOKIE_MAX_AGE=3600000 <br />
+MONGO_HOST=localhost <br />
+MONGO_PORT=27017 <br />
+MONGO_USER=dev_user <br />
+MONGO_PASS=devUser01 <br />
+MONGO_DATABASE_NAME=dbname <br />
+REDIS_HOST=localhost <br />
+REDIS_PORT=6379 <br />
