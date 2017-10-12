@@ -13,14 +13,13 @@ A Node React Boilerplate built with Node 7, Express and MongoDB with server side
 #### Checking code coverage
 3. To check coverage statistics manually, run `npm cover`. Coverage reports are generated in `./build/coverage/`.
 
-
 #### Core components
 - Express JS
-- Reddis (for session persistence)
-- Mongo DB (for this PoC only; no doubt the choice of DB will change)
-- React (for server-side and front end templating)
-- Jasmine w. Chai (for tests)
-- Istanbul (for code coverage)
+- Reddis
+- Mongo DB
+- React (https://github.com/paypal/react-engine)
+- Jasmine w. Chai
+- Istanbul
 
 #### Typical dotEnv file
 PORT=3000 <br />
